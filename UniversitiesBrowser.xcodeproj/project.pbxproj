@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		68CA40302FE169CF00BCCAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CA40112FE169CE00BCCAD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68CA40182FE169CE00BCCAD3;
+			remoteInfo = UniversitiesBrowser;
+		};
+		68CA403A2FE169CF00BCCAD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68CA40112FE169CE00BCCAD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68CA40182FE169CE00BCCAD3;
+			remoteInfo = UniversitiesBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68CA40192FE169CE00BCCAD3 /* UniversitiesBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UniversitiesBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CA402F2FE169CF00BCCAD3 /* UniversitiesBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversitiesBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68CA40392FE169CF00BCCAD3 /* UniversitiesBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniversitiesBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		68CA40412FE169CF00BCCAD3 /* Exceptions for "UniversitiesBrowser" folder in "UniversitiesBrowser" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 68CA40182FE169CE00BCCAD3 /* UniversitiesBrowser */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		68CA401B2FE169CE00BCCAD3 /* UniversitiesBrowser */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				68CA40412FE169CF00BCCAD3 /* Exceptions for "UniversitiesBrowser" folder in "UniversitiesBrowser" target */,
+			);
+			path = UniversitiesBrowser;
+			sourceTree = "<group>";
+		};
+		68CA40322FE169CF00BCCAD3 /* UniversitiesBrowserTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UniversitiesBrowserTests;
+			sourceTree = "<group>";
+		};
+		68CA403C2FE169CF00BCCAD3 /* UniversitiesBrowserUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UniversitiesBrowserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68CA40162FE169CE00BCCAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CA402C2FE169CF00BCCAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CA40362FE169CF00BCCAD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68CA40102FE169CE00BCCAD3 = {
+			isa = PBXGroup;
+			children = (
+				68CA401B2FE169CE00BCCAD3 /* UniversitiesBrowser */,
+				68CA40322FE169CF00BCCAD3 /* UniversitiesBrowserTests */,
+				68CA403C2FE169CF00BCCAD3 /* UniversitiesBrowserUITests */,
+				68CA401A2FE169CE00BCCAD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68CA401A2FE169CE00BCCAD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68CA40192FE169CE00BCCAD3 /* UniversitiesBrowser.app */,
+				68CA402F2FE169CF00BCCAD3 /* UniversitiesBrowserTests.xctest */,
+				68CA40392FE169CF00BCCAD3 /* UniversitiesBrowserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68CA40182FE169CE00BCCAD3 /* UniversitiesBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CA40422FE169CF00BCCAD3 /* Build configuration list for PBXNativeTarget "UniversitiesBrowser" */;
+			buildPhases = (
+				68CA40152FE169CE00BCCAD3 /* Sources */,
+				68CA40162FE169CE00BCCAD3 /* Frameworks */,
+				68CA40172FE169CE00BCCAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				68CA401B2FE169CE00BCCAD3 /* UniversitiesBrowser */,
+			);
+			name = UniversitiesBrowser;
+			packageProductDependencies = (
+			);
+			productName = UniversitiesBrowser;
+			productReference = 68CA40192FE169CE00BCCAD3 /* UniversitiesBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68CA402E2FE169CF00BCCAD3 /* UniversitiesBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CA40472FE169CF00BCCAD3 /* Build configuration list for PBXNativeTarget "UniversitiesBrowserTests" */;
+			buildPhases = (
+				68CA402B2FE169CF00BCCAD3 /* Sources */,
+				68CA402C2FE169CF00BCCAD3 /* Frameworks */,
+				68CA402D2FE169CF00BCCAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68CA40312FE169CF00BCCAD3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				68CA40322FE169CF00BCCAD3 /* UniversitiesBrowserTests */,
+			);
+			name = UniversitiesBrowserTests;
+			packageProductDependencies = (
+			);
+			productName = UniversitiesBrowserTests;
+			productReference = 68CA402F2FE169CF00BCCAD3 /* UniversitiesBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68CA40382FE169CF00BCCAD3 /* UniversitiesBrowserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68CA404A2FE169CF00BCCAD3 /* Build configuration list for PBXNativeTarget "UniversitiesBrowserUITests" */;
+			buildPhases = (
+				68CA40352FE169CF00BCCAD3 /* Sources */,
+				68CA40362FE169CF00BCCAD3 /* Frameworks */,
+				68CA40372FE169CF00BCCAD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68CA403B2FE169CF00BCCAD3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				68CA403C2FE169CF00BCCAD3 /* UniversitiesBrowserUITests */,
+			);
+			name = UniversitiesBrowserUITests;
+			packageProductDependencies = (
+			);
+			productName = UniversitiesBrowserUITests;
+			productReference = 68CA40392FE169CF00BCCAD3 /* UniversitiesBrowserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68CA40112FE169CE00BCCAD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					68CA40182FE169CE00BCCAD3 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					68CA402E2FE169CF00BCCAD3 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 68CA40182FE169CE00BCCAD3;
+					};
+					68CA40382FE169CF00BCCAD3 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 68CA40182FE169CE00BCCAD3;
+					};
+				};
+			};
+			buildConfigurationList = 68CA40142FE169CE00BCCAD3 /* Build configuration list for PBXProject "UniversitiesBrowser" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68CA40102FE169CE00BCCAD3;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 68CA401A2FE169CE00BCCAD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68CA40182FE169CE00BCCAD3 /* UniversitiesBrowser */,
+				68CA402E2FE169CF00BCCAD3 /* UniversitiesBrowserTests */,
+				68CA40382FE169CF00BCCAD3 /* UniversitiesBrowserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68CA40172FE169CE00BCCAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CA402D2FE169CF00BCCAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CA40372FE169CF00BCCAD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68CA40152FE169CE00BCCAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CA402B2FE169CF00BCCAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68CA40352FE169CF00BCCAD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68CA40312FE169CF00BCCAD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68CA40182FE169CE00BCCAD3 /* UniversitiesBrowser */;
+			targetProxy = 68CA40302FE169CF00BCCAD3 /* PBXContainerItemProxy */;
+		};
+		68CA403B2FE169CF00BCCAD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68CA40182FE169CE00BCCAD3 /* UniversitiesBrowser */;
+			targetProxy = 68CA403A2FE169CF00BCCAD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		68CA40432FE169CF00BCCAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniversitiesBrowser/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.universitiesBrowser.UniversitiesBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68CA40442FE169CF00BCCAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UniversitiesBrowser/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.universitiesBrowser.UniversitiesBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		68CA40452FE169CF00BCCAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68CA40462FE169CF00BCCAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68CA40482FE169CF00BCCAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.universitiesBrowser.UniversitiesBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniversitiesBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UniversitiesBrowser";
+			};
+			name = Debug;
+		};
+		68CA40492FE169CF00BCCAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.universitiesBrowser.UniversitiesBrowserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UniversitiesBrowser.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UniversitiesBrowser";
+			};
+			name = Release;
+		};
+		68CA404B2FE169CF00BCCAD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.universitiesBrowser.UniversitiesBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniversitiesBrowser;
+			};
+			name = Debug;
+		};
+		68CA404C2FE169CF00BCCAD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.universitiesBrowser.UniversitiesBrowserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UniversitiesBrowser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68CA40142FE169CE00BCCAD3 /* Build configuration list for PBXProject "UniversitiesBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CA40452FE169CF00BCCAD3 /* Debug */,
+				68CA40462FE169CF00BCCAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CA40422FE169CF00BCCAD3 /* Build configuration list for PBXNativeTarget "UniversitiesBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CA40432FE169CF00BCCAD3 /* Debug */,
+				68CA40442FE169CF00BCCAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CA40472FE169CF00BCCAD3 /* Build configuration list for PBXNativeTarget "UniversitiesBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CA40482FE169CF00BCCAD3 /* Debug */,
+				68CA40492FE169CF00BCCAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68CA404A2FE169CF00BCCAD3 /* Build configuration list for PBXNativeTarget "UniversitiesBrowserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68CA404B2FE169CF00BCCAD3 /* Debug */,
+				68CA404C2FE169CF00BCCAD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68CA40112FE169CE00BCCAD3 /* Project object */;
+}
