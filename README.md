@@ -261,7 +261,7 @@ The Details module does **not** directly communicate with the networking layer.
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/hirendra1988/UniversitiesBrowser
    ```
 
 2. Open `UniversitiesBrowser.xcodeproj` in Xcode.
