@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		68CA40942FE1932600BCCAD3 /* ListingFeature in Frameworks */ = {isa = PBXBuildFile; productRef = 68CA40932FE1932600BCCAD3 /* ListingFeature */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		68CA40302FE169CF00BCCAD3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CA40942FE1932600BCCAD3 /* ListingFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,7 @@
 				68CA401B2FE169CE00BCCAD3 /* UniversitiesBrowser */,
 				68CA40322FE169CF00BCCAD3 /* UniversitiesBrowserTests */,
 				68CA403C2FE169CF00BCCAD3 /* UniversitiesBrowserUITests */,
+				68CA40922FE1932600BCCAD3 /* Frameworks */,
 				68CA401A2FE169CE00BCCAD3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +109,13 @@
 				68CA40392FE169CF00BCCAD3 /* UniversitiesBrowserUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		68CA40922FE1932600BCCAD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			);
 			name = UniversitiesBrowser;
 			packageProductDependencies = (
+				68CA40932FE1932600BCCAD3 /* ListingFeature */,
 			);
 			productName = UniversitiesBrowser;
 			productReference = 68CA40192FE169CE00BCCAD3 /* UniversitiesBrowser.app */;
@@ -208,6 +222,14 @@
 			);
 			mainGroup = 68CA40102FE169CE00BCCAD3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				68CA408A2FE188C400BCCAD3 /* XCLocalSwiftPackageReference "Packages/CommonUI" */,
+				68CA408B2FE188CE00BCCAD3 /* XCLocalSwiftPackageReference "Packages/DetailsFeature" */,
+				68CA408C2FE188DB00BCCAD3 /* XCLocalSwiftPackageReference "Packages/DomainKit" */,
+				68CA408D2FE188EC00BCCAD3 /* XCLocalSwiftPackageReference "Packages/ListingFeature" */,
+				68CA408E2FE188FB00BCCAD3 /* XCLocalSwiftPackageReference "Packages/NetworkKit" */,
+				68CA408F2FE1890E00BCCAD3 /* XCLocalSwiftPackageReference "Packages/PersistenceKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 68CA401A2FE169CE00BCCAD3 /* Products */;
 			projectDirPath = "";
@@ -292,10 +314,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniversitiesBrowser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,10 +345,10 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = UniversitiesBrowser/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -583,6 +605,41 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		68CA408A2FE188C400BCCAD3 /* XCLocalSwiftPackageReference "Packages/CommonUI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CommonUI;
+		};
+		68CA408B2FE188CE00BCCAD3 /* XCLocalSwiftPackageReference "Packages/DetailsFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/DetailsFeature;
+		};
+		68CA408C2FE188DB00BCCAD3 /* XCLocalSwiftPackageReference "Packages/DomainKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/DomainKit;
+		};
+		68CA408D2FE188EC00BCCAD3 /* XCLocalSwiftPackageReference "Packages/ListingFeature" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/ListingFeature;
+		};
+		68CA408E2FE188FB00BCCAD3 /* XCLocalSwiftPackageReference "Packages/NetworkKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/NetworkKit;
+		};
+		68CA408F2FE1890E00BCCAD3 /* XCLocalSwiftPackageReference "Packages/PersistenceKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/PersistenceKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68CA40932FE1932600BCCAD3 /* ListingFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68CA408D2FE188EC00BCCAD3 /* XCLocalSwiftPackageReference "Packages/ListingFeature" */;
+			productName = ListingFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 68CA40112FE169CE00BCCAD3 /* Project object */;
 }
