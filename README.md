@@ -1,6 +1,6 @@
 # Universities Browser
 
-A modular iOS application built using Swift, VIPER, Clean Architecture, and Swift Package Manager (SPM). The application fetches universities for a selected country, caches the results locally, and displays detailed information for each university.
+A modular iOS application built using **Swift**, **VIPER**, **Clean Architecture**, and **Swift Package Manager (SPM)**. The application fetches universities for a selected country, caches the results locally, and displays detailed information for each university.
 
 ## Demo
 
